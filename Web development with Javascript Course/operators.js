@@ -23,3 +23,8 @@ console.log(x);
 
 x %= y; // provides the remainder of 6 / 2 (0)
 console.log(x)
+
+text1 = "what a very "
+text2 = "nice day!"
+text1 += text2;
+console.log(text1) // addition with strings
