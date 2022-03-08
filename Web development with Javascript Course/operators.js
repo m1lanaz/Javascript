@@ -28,3 +28,10 @@ text1 = "what a very "
 text2 = "nice day!"
 text1 += text2;
 console.log(text1) // addition with strings
+
+// These are connectors:
+
+console.log(5 == 5 && 10 == 9)
+
+console.log(5 == 5 || 10 == 9) // this is true because were using 'or'
+
