@@ -14,3 +14,8 @@
  var pizza = {type:"cheese", price:"£300", yummy:"no"};
 console.log(pizza.type);
 console.log(pizza);
+
+//empty values
+
+var y = ""; //this is still a string but its just empty
+
