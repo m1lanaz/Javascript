@@ -3,7 +3,7 @@ for(i = 0; i < 5; i++){ // statement1 is executed once before the execution of t
 }; //it will stop before 5
 
 var x = 1
-while(x < 10) {
+while(x > 10) {
     console.log("The number is " + x);
     x ++
-}
+} 
