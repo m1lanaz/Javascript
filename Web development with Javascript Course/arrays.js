@@ -9,3 +9,6 @@ console.log(fruits[0]);
 fruits[0] = "Mango"; // this will replace element at index 0 in the fruits array (it will overwrite apples as mango)
 console.log(fruits[0]);
 
+console.log(fruits);
+fruits.pop(); //removes the last element
+console.log(fruits);
