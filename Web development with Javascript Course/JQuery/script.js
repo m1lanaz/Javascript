@@ -1,4 +1,4 @@
 $(document).ready(function(){
-    $("p").css("color", "red");
+    $("li").eq(1).css("color", "red"); // selects the second list item
     $("h1").css("color","pink");
 })
