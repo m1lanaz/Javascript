@@ -1,16 +1,28 @@
 /** #8075FF  #6320EE **/
 body{
     background-color: #F8F0FB;
+    text-align: center;
+    padding-top: 150px;
 }
 
 h1{
     color: #8075FF;
     font-family: 'Lobster', cursive;
-    text-align: center;
     letter-spacing: 2.5px;
     font-size: 4rem;
     padding: 30px;
 }
 
-div{
+button{
+    margin: 50px;
+    border-radius: 12px;
+    width: 250px;
+    cursor: pointer;
+    background-color:#8075FF ;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size:16px ;
 }
