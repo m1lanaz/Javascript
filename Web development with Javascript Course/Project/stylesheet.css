@@ -15,7 +15,7 @@ h1{
 
 button{
     margin: 50px;
-    border-radius: 12px;
+    border-radius: 2px;
     width: 250px;
     cursor: pointer;
     background-color:#8075FF ;
@@ -23,6 +23,14 @@ button{
     padding: 15px 32px;
     text-align: center;
     color: white;
-    font-family: 'Lobster', cursive;
+    font-family: 'Mukta', sans-serif;
     font-size:16px ;
+    transition-duration: 0.4s;
+
+}
+
+button:hover{
+    background-color: #F8F0FB;
+    border: 2px solid #8075FF;
+    color: #8075FF;
 }
