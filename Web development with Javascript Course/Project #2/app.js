@@ -16,11 +16,13 @@ $(document).ready(function(){
             string += "</table>";
 
             $('#poke-list').html(string);
+
+            if (status) {
+                $('.hide-button').on('click', function(){
+                    $(this).parent().parent().hide();
+                })
+            }
        });
     });
-
-    $('.hide-button').on('click', function(){
-        $(this).parent().parent().hide();
-    })
 
 });
