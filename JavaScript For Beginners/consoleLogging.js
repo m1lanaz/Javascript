@@ -1,4 +1,5 @@
 var name = "Milana Zaborovska";
 var profession = "Student";
 
-console.log
+console.log(name);
+console.log(profession);
